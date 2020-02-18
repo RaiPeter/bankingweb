@@ -1,0 +1,89 @@
+/* *{
+    margin:none;
+    box-sizing: border-box;
+} */
+
+body{
+    height: 100vh;
+    
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+    background-image: url(architectural-design-architecture-buildings-830891.jpg);
+    background-size: cover;   
+}
+
+.tbl{
+    text-align: center;
+}
+ form  {
+    
+     width:40%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.808),rgba(44, 8, 8, 0.788));
+     /* background-image: linear-gradient(to bottom right, rgba(177, 35, 153, 0.233) , rgb(179, 21, 21)  ); */
+    position: absolute;
+    top:200px;
+    left:400px;
+    /* margin: auto; */
+    /* border: 1px solid rgb(80, 5, 5); */
+    padding: 50px 20px;
+    /* border-style: solid; */
+    box-shadow: 5px 5px 10px black;
+    /* opacity: 0.5; */
+}
+
+#icon{
+    margin-top:5px;
+    margin-right: 5px;
+    color: rgba(255, 0, 0, 0.89);
+} 
+#upwd,#uname{
+    color: rgba(27, 0, 0, 0.686);
+    letter-spacing: 2px;
+    font-style: bold;
+    left: 20px;
+}
+#invalidUser, #invalidPwd{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: red;
+}
+ .tbl  td{
+    padding: 20px;
+    
+ }
+ .tbl #uname,.tbl #upwd{
+     border: none;
+     border-radius: 3px;
+     background: linear-gradient(to right,rgba(187, 50, 50, 0.733),rgba(240, 98, 98, 0.733));
+     margin: 0px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(211, 203, 203);
+    outline:none;
+    color: rgba(18, 12, 43, 0.726);
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+#user,#pwd{
+    padding-bottom: 50px;
+}
+#uname:focus,#upwd:focus{
+    border:1px solid rgba(255, 255, 255, 0.548);
+}
+#btn:hover{
+    background-color: rgba(211, 88, 88, 0.801)
+}
+::placeholder{
+    color:rgba(0, 0, 0, 0.658);
+}
+.tbl #btn{
+    outline: none;
+    padding: 10px 40px;
+  background-color: rgba(226, 44, 44, 0.801);
+  color: rgb(25, 32, 27);
+  letter-spacing: 5px;
+  border-radius: 20px;
+  border: 1px solid whitesmoke;
+   
+}
+input{
+    color: black;;
+}

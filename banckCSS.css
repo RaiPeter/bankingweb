@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-image: radial-gradient(white ,rgba(39, 17, 136, 0.795) );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.mainbody{
+    text-align: center;
+ 
+}
+.head{
+    height:15vh;
+    text-align: center;
+    box-shadow: 1px 2px 20px;
+    background-image: radial-gradient(white ,rgb(81, 136, 124) );
+}
+/*head*/
+#logo{
+    float: left;
+    margin-top: 5px;    
+    margin-left: 30px;
+}
+#headline{
+    font-size: 30px;
+    padding-top: 30px;
+    word-spacing: 30px;
+    letter-spacing: 15px;
+    
+}
+
+/* BODY */
+#body{
+  position: relative; 
+  height: 10vh;
+  top: 0px;  
+/*    height: 100%; */
+}
+#form{
+    
+    position: absolute;
+    padding:50px 30px;
+    transform: translate(450px,20px);
+    /* background-image: radial-gradient(rgba(66, 123, 197, 0),rgb(122, 88, 88)); */
+    /* box-shadow: 2px 2px 10px; */
+}
+#display{
+    display: flex;
+    /* position: relative; */
+    justify-content: space-between;
+   
+}
+#input{
+    display: flex;
+    align-content: space-around;
+    margin-bottom: 30px;
+}
+#selector,#des input,#amt input{
+    margin-right: 40px;
+    background: none;
+    border-radius: 5px;
+    outline: none;
+}
+::placeholder{
+    color: grey;
+}
+#des input,#amt input{
+   border: none;
+   border-bottom: 1px solid black;
+   border-top: 1px solid black;
+   padding: 5px 0px;
+   font-size: 15px;
+}  
+#balText{
+    font-size: 20px;
+    padding-bottom: 10px;
+    word-spacing: 5px;
+}
+#balanceChange{
+    font-size: 50px;
+    letter-spacing: 10px;
+    color:rgba(68, 110, 201, 0.658);
+    text-shadow: 3px 5px 5px;
+    margin-bottom: 10px;
+    
+}
+#withdrawal{
+    position: relative;
+    display: flex;
+    width: 300px;
+    margin:auto;
+    border:1px solid black;
+    padding:5px;
+    margin-bottom:10px; 
+    font-weight: 500;
+    background-color: rgba(255, 0, 0, 0.152);
+}
+#depositer{
+    position: relative;
+    display: flex;
+    width: 300px;
+    margin:auto;
+    border:1px solid black;
+    padding:5px;
+    margin-bottom:10px;
+    font-weight: 500;
+    background-color: rgba(0, 128, 0, 0.151);
+}
+#withdrawChange{
+    /* padding-left: 87px; */
+    position: absolute;
+    right:5px;
+    color: red;
+    font-weight: bolder;
+    /* background-color: red;  */
+}
+#depositChange{
+    /* padding-left: 100px; */
+    position: absolute;
+    right:5px;
+    color: green;
+    font-weight: bolder;
+    /* background-color: red;  */
+}
+#details{
+    margin: 20px 0px;
+    line-height: 30px;
+}
+#box1{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+}
+#box2{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+#textWithdraw,#textDeposit{
+    width:100px;
+    border: 1px solid black;
+    margin-bottom: 20px;  
+}
+#textWithdraw{
+    
+    background-color: rgba(255, 0, 0, 0.37);
+    padding:5px 10px;
+  }
+#textDeposit{
+    background-color: rgba(0, 128, 0, 0.192);
+    padding:5px 10px;
+}
+#input i{
+    margin-top: 5px;
+    margin-left: -20px;
+    transform: scale(2);
+}
+
+/* FOOTER */
+.footer{
+    height: 50vh;
+    width: 100%;
+    background: red;
+
+bottom: 0px;
+}
+
